@@ -7,8 +7,8 @@ alarm_set(0, 300);
 /// @DnDAction : YoYo Games.Loops.Repeat
 /// @DnDVersion : 1
 /// @DnDHash : 22CDE7CD
-/// @DnDArgument : "times" "10"
-repeat(10)
+/// @DnDArgument : "times" "global.projectile_count"
+repeat(global.projectile_count)
 {
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
